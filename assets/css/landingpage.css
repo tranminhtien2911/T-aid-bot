@@ -117,17 +117,14 @@ body {
   margin-right: 8px;
 }
 
-#LDPage-1 {
-  padding: 0 44px;
-}
-#LDPage-2 {
+#LDPage-1, #LDPage-2 {
   padding: 0 44px;
 }
 
 .LDPage {
   background-color: #F9FBFE;
 }
-.LDPage-1-title, .LDPage-1-text, .LDPage-1-btn {
+.LDPage-1, .LDPage-2, .LDPage-3 {
   font-family: "Darker Grotesque", sans-serif;
 }
 .LDPage-1-right img {
@@ -202,6 +199,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
+  width: 100%;
 }
 .LDPage-2-img-Wave img {
   width: 100%;
@@ -225,6 +223,36 @@ body {
   color: #1A71CA;
   font-size: 2rem;
   font-weight: 600;
+}
+.LDPage-3 {
+  height: 654px;
+}
+.LDPage-3-row {
+  height: 100%;
+}
+.LDPage-3-right {
+  padding-left: 0;
+}
+.LDPage-3-title {
+  text-align: center;
+  color: #1A71CA;
+}
+.LDPage-3-title h1 {
+  font-weight: 800;
+  transform: translateY(110%);
+  font-size: 36px;
+}
+.LDPage-3-content {
+  padding-right: 44px;
+}
+.LDPage-3-text {
+  font-size: 28px;
+  color: #7B7986;
+  text-align: justify;
+  font-weight: 500;
+}
+.LDPage-3-text:not(:first-child) {
+  margin-top: 24px;
 }
 
 /*# sourceMappingURL=landingpage.css.map */
