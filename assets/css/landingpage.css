@@ -127,8 +127,8 @@ body {
 .LDPage-1, .LDPage-2, .LDPage-3 {
   font-family: "Darker Grotesque", sans-serif;
 }
-.LDPage-1-right img {
-  width: 844px;
+.LDPage-1-img {
+  width: 100%;
   height: 655px;
 }
 .LDPage-1-wrap {
@@ -231,7 +231,7 @@ body {
   height: 100%;
 }
 .LDPage-3-right {
-  padding-left: 0;
+  padding-left: 0px !important;
 }
 .LDPage-3-title {
   text-align: center;
@@ -253,6 +253,584 @@ body {
 }
 .LDPage-3-text:not(:first-child) {
   margin-top: 24px;
+}
+.LDPage-4 {
+  height: 100%;
+}
+.LDPage-4-wrap {
+  height: 266px;
+  background-color: #F9FBFE;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.LDPage-4-row {
+  height: 100%;
+}
+.LDPage-4-card {
+  width: 266px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px 0px rgba(222, 223, 225, 0.5);
+  justify-content: space-around;
+}
+.LDPage-4-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #22438C;
+}
+.LDPage-4-card-text {
+  font-size: 24px;
+  color: #FBAB5B;
+  font-weight: bold;
+}
+.LDPage-4-card-text span {
+  font-size: 14px;
+}
+.LDPage-5 {
+  width: 100%;
+  height: 720px;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.LDPage-5-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1A71CA;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+  z-index: 1;
+}
+.LDPage-5-wrap {
+  position: relative;
+}
+.LDPage-5-text {
+  font-size: 28px;
+  color: #7B7986;
+  width: 509px;
+  height: 230px;
+  position: relative;
+  z-index: 1;
+  transform: translate(64%, 46%);
+}
+.LDPage-5-text p {
+  line-height: 1.6;
+}
+.LDPage-5-img {
+  width: 70%;
+  position: absolute;
+  transform: translate(20%, -48%);
+}
+
+.footer {
+  width: 100%;
+  height: 450px;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.footer-row {
+  padding: 0 44px;
+  height: 100%;
+  align-content: center;
+}
+.footer-intro {
+  font-size: 18px;
+  color: #22438C;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.footer-intro-title {
+  font-weight: 600;
+}
+.footer-intro-local {
+  color: #1A71CA;
+}
+.footer-intro-phone {
+  color: #DF2040;
+}
+.footer-help, .footer-info, .footer-link {
+  margin-top: 52px;
+}
+.footer-help h2, .footer-info h2, .footer-link h2 {
+  font-size: 24px;
+  color: #DF2040;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.footer-help p, .footer-info p, .footer-link p {
+  color: #22438C;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.footer-help i, .footer-info i, .footer-link i {
+  color: #22438C;
+  font-size: 40px;
+  font-weight: 600;
+}
+.footer-help i:not(:last-child), .footer-info i:not(:last-child), .footer-link i:not(:last-child) {
+  margin-right: 40px;
+}
+.footer-icons {
+  display: flex;
+  width: 100%;
+}
+
+.copyRight {
+  width: 100%;
+  height: 96px;
+  font-family: "Manrope", sans-serif;
+  background-image: linear-gradient(to right, #A5D6FE, #CCEDFF, #A5D6FE);
+  position: relative;
+}
+.copyRight span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1023px) {
+  #header-wrap {
+    padding: 0 44px;
+    margin-top: 36px;
+    height: 6rem;
+  }
+  #header-logo {
+    margin-right: 4rem;
+  }
+  #header-logo img {
+    width: 280px;
+    height: 6rem;
+  }
+
+  .header-list {
+    padding-left: 50px;
+  }
+  .header-item {
+    font-size: 20px;
+    margin-right: 30px;
+  }
+  .header-login {
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .LDPage-1 {
+    height: 450px;
+  }
+  .LDPage-1-img {
+    width: 100%;
+  }
+  .LDPage-1-img img {
+    width: 100%;
+    height: 448px;
+  }
+  .LDPage-1-wrap {
+    transform: translateX(10%) translateY(30%);
+    margin: auto;
+  }
+  .LDPage-1-title {
+    font-size: 34px;
+  }
+  .LDPage-1-name {
+    font-size: 40px;
+  }
+  .LDPage-1-text {
+    font-size: 18px;
+    margin-top: 40px;
+    width: 446px;
+    height: 70px;
+  }
+  .LDPage-1-btn {
+    margin-top: 32px;
+  }
+  .LDPage-1-btn-detail, .LDPage-1-btn-comein {
+    width: 150px;
+    height: 40px;
+  }
+  .LDPage-1-btn-detail {
+    font-size: 18px;
+  }
+  .LDPage-1-btn-comein {
+    font-size: 18px;
+  }
+  .LDPage-2 {
+    height: 400px;
+  }
+  .LDPage-2-img {
+    width: 160px;
+    height: 150px;
+  }
+  .LDPage-2-box {
+    width: 100%;
+  }
+  .LDPage-2-box p {
+    text-align: center;
+    color: #1A71CA;
+    font-size: 18px;
+    font-weight: 600;
+    height: 80px;
+  }
+  .LDPage-3 {
+    height: 500px;
+  }
+  .LDPage-3-right {
+    padding-left: 0px !important;
+  }
+  .LDPage-3-title {
+    text-align: center;
+    color: #1A71CA;
+  }
+  .LDPage-3-title h1 {
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 28px;
+  }
+  .LDPage-3-content {
+    padding-right: 44px;
+    margin-top: 20px;
+  }
+  .LDPage-3-text {
+    font-size: 22px;
+  }
+  .LDPage-3-text:not(:first-child) {
+    margin-top: 18px;
+  }
+  .LDPage-4 {
+    height: 100%;
+  }
+  .LDPage-4-wrap {
+    height: 266px;
+    background-color: #F9FBFE;
+    font-family: "Darker Grotesque", sans-serif;
+  }
+  .LDPage-4-row {
+    height: 100%;
+  }
+  .LDPage-4-card {
+    width: 220px;
+    height: 80px;
+  }
+  .LDPage-4-card-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .LDPage-4-card-text {
+    font-size: 20px;
+  }
+  .LDPage-4-card-text span {
+    font-size: 16px;
+  }
+  .LDPage-4-card-right img {
+    width: 68px;
+    height: 58px;
+  }
+  .LDPage-5 {
+    width: 100%;
+    height: 580px;
+    font-family: "Darker Grotesque", sans-serif;
+  }
+  .LDPage-5-title {
+    font-size: 28px;
+    margin-top: 25px;
+  }
+  .LDPage-5-wrap {
+    position: relative;
+  }
+  .LDPage-5-text {
+    font-size: 24px;
+    width: 422px;
+    height: 230px;
+    transform: translate(46%, 44%);
+  }
+  .LDPage-5-img {
+    width: 80%;
+    position: absolute;
+    transform: translate(13%, -56%);
+  }
+
+  .footer {
+    width: 100%;
+    height: 360px;
+    font-family: "Darker Grotesque", sans-serif;
+  }
+  .footer-row {
+    padding: 0 44px;
+    height: 100%;
+    align-content: center;
+  }
+  .footer-logo {
+    width: 80%;
+  }
+  .footer-intro {
+    font-size: 16px;
+    color: #22438C;
+    font-weight: 600;
+    padding-left: 20px;
+  }
+  .footer-intro-title {
+    font-weight: 600;
+  }
+  .footer-intro-local {
+    color: #1A71CA;
+  }
+  .footer-intro-phone {
+    color: #DF2040;
+  }
+  .footer-help, .footer-info, .footer-link {
+    margin-top: 30px;
+  }
+  .footer-help h2, .footer-info h2, .footer-link h2 {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+  .footer-help p, .footer-info p, .footer-link p {
+    color: #22438C;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  .footer-help i, .footer-info i, .footer-link i {
+    font-size: 30px;
+  }
+
+  .copyRight {
+    width: 100%;
+    height: 76px;
+    font-family: "Manrope", sans-serif;
+    background-image: linear-gradient(to right, #A5D6FE, #CCEDFF, #A5D6FE);
+    position: relative;
+  }
+  .copyRight span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 1439px) {
+  #header-wrap {
+    padding: 0 44px;
+    margin-top: 36px;
+    height: 6rem;
+  }
+  #header-logo {
+    margin-right: 4rem;
+  }
+  #header-logo img {
+    width: 280px;
+    height: 6rem;
+  }
+
+  .header-list {
+    padding-left: 50px;
+  }
+  .header-item {
+    font-size: 20px;
+    margin-right: 30px;
+  }
+  .header-login {
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .LDPage-1 {
+    height: 450px;
+  }
+  .LDPage-1-img {
+    width: 100%;
+  }
+  .LDPage-1-img img {
+    width: 100%;
+    height: 448px;
+  }
+  .LDPage-1-wrap {
+    transform: translateX(10%) translateY(30%);
+    margin: auto;
+  }
+  .LDPage-1-title {
+    font-size: 34px;
+  }
+  .LDPage-1-name {
+    font-size: 40px;
+  }
+  .LDPage-1-text {
+    font-size: 18px;
+    margin-top: 40px;
+    width: 446px;
+    height: 70px;
+  }
+  .LDPage-1-btn {
+    margin-top: 32px;
+  }
+  .LDPage-1-btn-detail, .LDPage-1-btn-comein {
+    width: 150px;
+    height: 40px;
+  }
+  .LDPage-1-btn-detail {
+    font-size: 18px;
+  }
+  .LDPage-1-btn-comein {
+    font-size: 18px;
+  }
+  .LDPage-2 {
+    height: 400px;
+  }
+  .LDPage-2-img {
+    width: 160px;
+    height: 150px;
+  }
+  .LDPage-2-box {
+    width: 100%;
+  }
+  .LDPage-2-box p {
+    text-align: center;
+    color: #1A71CA;
+    font-size: 18px;
+    font-weight: 600;
+    height: 80px;
+  }
+  .LDPage-3 {
+    height: 500px;
+  }
+  .LDPage-3-right {
+    padding-left: 0px !important;
+  }
+  .LDPage-3-title {
+    text-align: center;
+    color: #1A71CA;
+  }
+  .LDPage-3-title h1 {
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 28px;
+  }
+  .LDPage-3-content {
+    padding-right: 44px;
+    margin-top: 20px;
+  }
+  .LDPage-3-text {
+    font-size: 22px;
+  }
+  .LDPage-3-text:not(:first-child) {
+    margin-top: 18px;
+  }
+  .LDPage-4 {
+    height: 100%;
+  }
+  .LDPage-4-wrap {
+    height: 266px;
+    background-color: #F9FBFE;
+    font-family: "Darker Grotesque", sans-serif;
+  }
+  .LDPage-4-row {
+    height: 100%;
+  }
+  .LDPage-4-card {
+    width: 220px;
+    height: 80px;
+  }
+  .LDPage-4-card-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .LDPage-4-card-text {
+    font-size: 20px;
+  }
+  .LDPage-4-card-text span {
+    font-size: 16px;
+  }
+  .LDPage-4-card-right img {
+    width: 68px;
+    height: 58px;
+  }
+  .LDPage-5 {
+    width: 100%;
+    height: 580px;
+    font-family: "Darker Grotesque", sans-serif;
+  }
+  .LDPage-5-title {
+    font-size: 28px;
+    margin-top: 25px;
+  }
+  .LDPage-5-wrap {
+    position: relative;
+  }
+  .LDPage-5-text {
+    font-size: 24px;
+    width: 422px;
+    height: 230px;
+    transform: translate(46%, 44%);
+  }
+  .LDPage-5-img {
+    width: 80%;
+    position: absolute;
+    transform: translate(13%, -56%);
+  }
+
+  .footer {
+    width: 100%;
+    height: 360px;
+    font-family: "Darker Grotesque", sans-serif;
+  }
+  .footer-row {
+    padding: 0 44px;
+    height: 100%;
+    align-content: center;
+  }
+  .footer-logo {
+    width: 80%;
+  }
+  .footer-intro {
+    font-size: 16px;
+    color: #22438C;
+    font-weight: 600;
+    padding-left: 20px;
+  }
+  .footer-intro-title {
+    font-weight: 600;
+  }
+  .footer-intro-local {
+    color: #1A71CA;
+  }
+  .footer-intro-phone {
+    color: #DF2040;
+  }
+  .footer-help, .footer-info, .footer-link {
+    margin-top: 30px;
+  }
+  .footer-help h2, .footer-info h2, .footer-link h2 {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+  .footer-help p, .footer-info p, .footer-link p {
+    color: #22438C;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  .footer-help i, .footer-info i, .footer-link i {
+    font-size: 30px;
+  }
+
+  .copyRight {
+    width: 100%;
+    height: 76px;
+    font-family: "Manrope", sans-serif;
+    background-image: linear-gradient(to right, #A5D6FE, #CCEDFF, #A5D6FE);
+    position: relative;
+  }
+  .copyRight span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 1699px) {
+  body {
+    width: 1440px;
+  }
 }
 
 /*# sourceMappingURL=landingpage.css.map */
