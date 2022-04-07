@@ -192,8 +192,8 @@ body {
       font-size: 20px;
       font-weight: 600;
       margin-top: 48px;
-      width: 484px;
-      height: 72px;
+      // width: 484px;
+      // height: 72px;
       color: $primary-2;
     }
 
@@ -483,12 +483,18 @@ body {
   }
 }
 
-
+@media screen and (max-width: 1023px) {
+  #LDPage{
+    &-4{
+      max-width: 900px !important;
+    }
+  }
+}
 
 @media screen and (max-width: 1439px) {
-    body{
-        width: 1024px;
-    }
+    // body{
+    //     width: 1024px;
+    // }
   #header {
     &-wrap {
       padding: 0 44px;

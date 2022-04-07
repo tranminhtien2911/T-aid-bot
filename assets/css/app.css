@@ -1,0 +1,182 @@
+@font-face {
+  font-family: aquire;
+  src: url("assets/AquireBold-8Ma60.otf");
+}
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* using rem unit */
+html {
+  font-size: 62.5%;
+  background-color: #f9fbfe;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+#header {
+  padding: 0px;
+  background-color: #f9fbfe;
+}
+#header-wrap {
+  padding: 0 44px;
+  margin-top: 40px;
+  height: 6rem;
+}
+#header-logo {
+  padding-right: 4.8rem;
+  margin-right: 0px;
+}
+#header-logo img {
+  width: 288px;
+  height: 6rem;
+}
+
+.header-list {
+  padding-top: 0.8rem;
+  padding-left: 50px;
+}
+.header-item {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  padding-right: 48px;
+}
+.header-item a {
+  color: #1d262b;
+}
+.header-item:first-child {
+  font-weight: bold;
+}
+.header-login {
+  width: 164px;
+  height: 48px;
+  border: 1px solid #1a71ca;
+  border-radius: 8px;
+  color: #1a71ca;
+  font-size: 20px;
+  font-family: "Darker Grotesque", sans-serif;
+  background-color: unset;
+  font-weight: 600;
+}
+.header-login i {
+  color: #22438c;
+  padding-right: 8px;
+}
+
+.LDPage {
+  background-color: #f9fbfe;
+}
+.LDPage-1 {
+  width: 100%;
+}
+.LDPage-1-left {
+  background-color: #fee5cd;
+  width: 100%;
+  height: auto;
+}
+.LDPage-1-right {
+  background-color: #df2040;
+  height: auto;
+}
+.LDPage-1-title {
+  font-size: 48px;
+  color: #22438c;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.LDPage-1-name {
+  font-family: aquire;
+  font-size: 56px;
+  color: #1a71ca;
+}
+.LDPage-1-text {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 48px;
+  color: #1a71ca;
+}
+.LDPage-1-btn {
+  margin-top: 32px;
+}
+.LDPage-1-btn-detail, .LDPage-1-btn-comein {
+  width: 204px;
+  height: 48px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 2px 6px 0px #045ebf41;
+}
+.LDPage-1-btn-detail {
+  background-color: #f6f8f9;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a71ca;
+  margin-right: 48px;
+}
+.LDPage-1-btn-comein {
+  background-color: #fbab5b;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9fbfe;
+}
+.LDPage-1-img {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=app.css.map */
