@@ -1,1068 +1,760 @@
-$brand: #DF2040;
-$primary-1: #FC556F;
-$primary-2: #1A71CA;
-$primary-3: #FBAB5B;
-$secondary-1: #7B7986;
-$secondary-2: #FEE5CD;
-$secondary-3: #F9D2D9;
-$secondary-4: #D9F2E1;
-$secondary-5: #D6F0F5;
-$secondary-6: #22438C;
-$palette-1: #1D262B;
+$brand: #df2040;
+$primary-1: #fc556f;
+$primary-2: #1a71ca;
+$primary-3: #fbab5b;
+$secondary-1: #7b7986;
+$secondary-2: #fee5cd;
+$secondary-3: #f9d2d9;
+$secondary-4: #d9f2e1;
+$secondary-5: #d6f0f5;
+$secondary-6: #22438c;
+$palette-1: #1d262b;
 $palette-2: #051113;
-$palette-3: #C2CFD6;
-$palette-4: #E0E7EB;
-$palette-5: #F6F8F9;
-$palette-6: #F9FBFE;
-$font-main: "Darker Grotesque",
-sans-serif;
+$palette-3: #c2cfd6;
+$palette-4: #e0e7eb;
+$palette-5: #f6f8f9;
+$palette-6: #f9fbfe;
+$font-main: "Darker Grotesque", sans-serif;
 // $font-logo: ;
 
 // $gradient: linear-gradient(to right, $primary, $secondary);
 @font-face {
-    font-family: aquire;
-    src: url("assets/AquireBold-8Ma60.otf");
+  font-family: aquire;
+  src: url("assets/AquireBold-8Ma60.otf");
 }
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 input,
 textarea,
 select,
 button {
-    outline: none;
+  outline: none;
 }
 
 input {
-    line-height: normal;
+  line-height: normal;
 }
 
 label,
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* using rem unit */
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 body {
-    font-family: $font-main;
-    font-size: 16px;
-    line-height: 1;
+  font-family: $font-main;
+  font-size: 16px;
+  line-height: 1;
 }
 
 #header {
-    padding: 0px;
-    background-color: $palette-6;
+  padding: 0px;
+  background-color: $palette-6;
 
-    &-wrap {
-        padding: 0 44px;
-        margin-top: 40px;
-        height: 6rem;
+  &-wrap {
+    padding: 0 44px;
+    margin-top: 40px;
+    height: 6rem;
+  }
+
+  &-logo {
+    margin-right: 4.8rem;
+
+    img {
+      width: 288px;
+      height: 6rem;
     }
-
-    &-logo {
-        margin-right: 4.8rem;
-
-        img {
-            width: 288px;
-            height: 6rem;
-        }
-    }
+  }
 }
 
 .header {
-    &-list {
-        padding-top: 0.8rem;
-        padding-left: 50px;
+  &-list {
+    padding-top: 0.8rem;
+    padding-left: 50px;
+  }
+
+  &-item {
+    font-family: $font-main;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-right: 4.8rem;
+
+    a {
+      color: $palette-1;
     }
+  }
 
-    &-item {
-        font-family: $font-main;
-        font-size: 2.4rem;
-        font-weight: 500;
-        margin-right: 4.8rem;
+  &-item:first-child {
+    font-weight: bold;
+  }
 
-        a {
-            color: $palette-1;
-        }
+  &-login {
+    width: 164px;
+    height: 48px;
+    border: 1px solid $primary-2;
+    border-radius: 8px;
+    color: $primary-2;
+    font-size: 20px;
+    font-family: $font-main;
+    background-color: unset;
+    font-weight: 600;
+
+    i {
+      color: $secondary-6;
+      margin-right: 8px;
     }
-
-    &-item:first-child {
-        font-weight: bold;
-    }
-
-    &-login {
-        width: 164px;
-        height: 48px;
-        border: 1px solid $primary-2;
-        border-radius: 8px;
-        color: $primary-2;
-        font-size: 20px;
-        font-family: $font-main;
-        background-color: unset;
-        font-weight: 600;
-
-        i {
-            color: $secondary-6;
-            margin-right: 8px;
-        }
-    }
+  }
 }
 
 #LDPage {
-
-    &-1,
-    &-2 {
-        padding: 0 44px;
-    }
+  &-1,
+  &-2 {
+    padding: 0 44px;
+  }
 }
 
 .LDPage {
-    background-color: $palette-6;
+  background-color: $palette-6;
 
-    &-1,
-    &-2,
-    &-3 {
-        font-family: $font-main;
-    }
+  &-1,
+  &-2,
+  &-3 {
+    font-family: $font-main;
+  }
 
-    &-1 {
-        &-img {
-            width: 100%;
-            height: 655px;
-        }
-
-        &-wrap {
-            transform: translateX(10%) translateY(50%);
-            margin: auto;
-        }
-
-        &-title {
-            font-size: 48px;
-            color: $secondary-6;
-            font-weight: 600;
-            margin-bottom: 0;
-        }
-
-        &-name {
-            font-family: aquire;
-            font-size: 56px;
-            color: $primary-2;
-        }
-
-        &-text {
-            font-size: 20px;
-            font-weight: 600;
-            margin-top: 48px;
-            width: 484px;
-            height: 72px;
-        }
-
-        &-btn {
-            margin-top: 32px;
-
-            &-detail,
-            &-comein {
-                width: 204px;
-                height: 48px;
-                border-radius: 6px;
-                border: none;
-                box-shadow: 0px 2px 6px 0px #045ebf41;
-            }
-
-            &-detail {
-                background-color: $palette-5;
-                font-size: 24px;
-                font-weight: bold;
-                color: $primary-2;
-                margin-right: 48px;
-            }
-
-            &-comein {
-                background-color: $primary-3;
-                font-size: 24px;
-                font-weight: bold;
-                color: $palette-6;
-            }
-        }
-    }
-
-    &-imgWave {
-        width: 100%;
-        background-color: $palette-6;
+  &-1 {
+    &-img {
+      width: 100%;
+      height: 655px;
     }
 
     &-wrap {
-        position: relative;
+      transform: translateX(10%) translateY(50%);
+      margin: auto;
     }
 
-    &-2 {
-        height: 470px;
-        position: relative;
-
-        &-row {
-            height: 100%;
-        }
-
-        &-img {
-            width: 180px;
-            height: 150px;
-            margin-bottom: 24px;
-
-            &-Wave {
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                width: 100%;
-
-                img {
-                    width: 100%;
-                    height: 150px;
-                }
-            }
-        }
-
-        &-box {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            font-family: $font-main;
-            width: 360px;
-            margin: 0 auto;
-
-            h2 {
-                color: $secondary-1;
-                font-weight: 600;
-            }
-
-            p {
-                text-align: center;
-                color: $primary-2;
-                font-size: 2rem;
-                font-weight: 600;
-            }
-        }
+    &-title {
+      font-size: 48px;
+      color: $secondary-6;
+      font-weight: 600;
+      margin-bottom: 0;
     }
 
-    &-3 {
-        height: 654px;
-
-        &-row {
-            height: 100%;
-        }
-
-        &-right {
-            padding-left: 0px !important;
-        }
-
-        &-title {
-            text-align: center;
-            color: $primary-2;
-
-            h1 {
-                font-weight: 800;
-                transform: translateY(110%);
-                font-size: 36px;
-            }
-        }
-
-        &-content {
-            padding-right: 44px;
-        }
-
-        &-text {
-            font-size: 28px;
-            color: $secondary-1;
-            text-align: justify;
-            font-weight: 500;
-        }
-
-        &-text:not(:first-child) {
-            margin-top: 24px;
-        }
+    &-name {
+      font-family: aquire;
+      font-size: 56px;
+      color: $primary-2;
     }
 
-    &-4 {
-        height: 100%;
-
-        &-wrap {
-            height: 266px;
-            background-color: $palette-6;
-            font-family: $font-main;
-        }
-
-        &-row {
-            height: 100%;
-        }
-
-        &-card {
-            width: 266px;
-            height: 100px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px 0px rgba(222, 223, 225, 0.5);
-            justify-content: space-around;
-
-            &-title {
-                font-size: 16px;
-                font-weight: 600;
-                color: $secondary-6;
-            }
-
-            &-text {
-                font-size: 24px;
-                color: $primary-3;
-                font-weight: bold;
-
-                span {
-                    font-size: 14px;
-
-                }
-            }
-        }
+    &-text {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 48px;
+      width: 484px;
+      height: 72px;
+      color: $primary-2;
     }
 
-    &-5 {
+    &-btn {
+      margin-top: 32px;
+
+      &-detail,
+      &-comein {
+        width: 204px;
+        height: 48px;
+        border-radius: 6px;
+        border: none;
+        box-shadow: 0px 2px 6px 0px #045ebf41;
+      }
+
+      &-detail {
+        background-color: $palette-5;
+        font-size: 24px;
+        font-weight: bold;
+        color: $primary-2;
+        margin-right: 48px;
+      }
+
+      &-comein {
+        background-color: $primary-3;
+        font-size: 24px;
+        font-weight: bold;
+        color: $palette-6;
+      }
+    }
+  }
+
+  &-imgWave {
+    width: 100%;
+    background-color: $palette-6;
+  }
+
+  &-wrap {
+    position: relative;
+  }
+
+  &-2 {
+    height: 470px;
+    position: relative;
+
+    &-row {
+      height: 100%;
+    }
+
+    &-img {
+      width: 180px;
+      height: 150px;
+      margin-bottom: 24px;
+
+      &-Wave {
+        position: absolute;
+        left: 0;
+        bottom: 0;
         width: 100%;
-        height: 720px;
-        font-family: $font-main;
 
-        &-title {
-            font-size: 36px;
-            font-weight: 800;
-            color: $primary-2;
-            text-align: center;
-            margin-top: 30px;
-            position: relative;
-            z-index: 1;
-
+        img {
+          width: 100%;
+          height: 150px;
         }
-
-        &-wrap {
-            position: relative;
-        }
-
-        &-text {
-            font-size: 28px;
-            color: $secondary-1;
-            width: 509px;
-            height: 230px;
-            position: relative;
-            z-index: 1;
-            transform: translate(64%, 46%);
-
-            p {
-                line-height: 1.6;
-            }
-        }
-
-        &-img {
-            width: 70%;
-            position: absolute;
-            transform: translate(20%, -48%);
-        }
-
+      }
     }
+
+    &-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: $font-main;
+      width: 360px;
+      margin: 0 auto;
+
+      h2 {
+        color: $secondary-1;
+        font-weight: 600;
+      }
+
+      p {
+        text-align: center;
+        color: $primary-2;
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  &-3 {
+    height: 654px;
+
+    &-row {
+      height: 100%;
+      width: 100%;
+    }
+
+    &-right {
+      padding-left: 0px !important;
+    }
+
+    &-title {
+      text-align: center;
+      color: $primary-2;
+
+      h1 {
+        font-weight: 800;
+        transform: translateY(110%);
+        font-size: 36px;
+      }
+    }
+
+    &-content {
+      padding-right: 44px;
+    }
+
+    &-text {
+      font-size: 28px;
+      color: $secondary-1;
+      text-align: justify;
+      font-weight: 500;
+    }
+
+    &-text:not(:first-child) {
+      margin-top: 24px;
+    }
+  }
+
+  &-4 {
+    height: 100%;
+
+    &-wrap {
+      height: 266px;
+      background-color: $palette-6;
+      font-family: $font-main;
+    }
+
+    &-row {
+      height: 100%;
+    }
+
+    &-card {
+      width: 266px;
+      height: 100px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px 0px rgba(222, 223, 225, 0.5);
+      justify-content: space-around;
+
+      &-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: $secondary-6;
+      }
+
+      &-text {
+        font-size: 24px;
+        color: $primary-3;
+        font-weight: bold;
+
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  &-5 {
+    width: 100%;
+    height: 720px;
+    font-family: $font-main;
+
+    &-title {
+      font-size: 36px;
+      font-weight: 800;
+      color: $primary-2;
+      text-align: center;
+      margin-top: 30px;
+      position: relative;
+      z-index: 1;
+    }
+
+    &-wrap {
+      position: relative;
+    }
+
+    &-text {
+      font-size: 28px;
+      color: $secondary-1;
+      width: 509px;
+      height: 230px;
+      position: relative;
+      z-index: 1;
+      transform: translate(64%, 46%);
+
+      p {
+        line-height: 1.6;
+      }
+    }
+
+    &-img {
+      width: 70%;
+      position: absolute;
+      transform: translate(20%, -48%);
+    }
+  }
 }
 
 .footer {
+  width: 100%;
+  height: 450px;
+  font-family: $font-main;
+
+  &-row {
+    padding: 0 44px;
+    height: 100%;
+    align-content: center;
+  }
+
+  &-intro {
+    font-size: 18px;
+    color: $secondary-6;
+    font-weight: 600;
+    padding-left: 20px;
+
+    &-title {
+      font-weight: 600;
+    }
+
+    &-local {
+      color: $primary-2;
+    }
+
+    &-phone {
+      color: $brand;
+    }
+  }
+
+  &-help,
+  &-info,
+  &-link {
+    margin-top: 52px;
+
+    h2 {
+      font-size: 24px;
+      color: $brand;
+      font-weight: bold;
+      margin-bottom: 24px;
+    }
+
+    p {
+      color: $secondary-6;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    i {
+      color: $secondary-6;
+      font-size: 40px;
+      font-weight: 600;
+    }
+
+    i:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+
+  &-icons {
+    display: flex;
     width: 100%;
-    height: 450px;
+  }
+}
+
+.copyRight {
+  width: 100%;
+  height: 96px;
+  font-family: "Manrope", sans-serif;
+  background-image: linear-gradient(to right, #a5d6fe, #ccedff, #a5d6fe);
+  position: relative;
+
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
+
+@media screen and (max-width: 1439px) {
+    body{
+        width: 1024px;
+    }
+  #header {
+    &-wrap {
+      padding: 0 44px;
+      margin-top: 36px;
+      height: 6rem;
+    }
+
+    &-logo {
+      margin-right: 4rem;
+
+      img {
+        width: 260px;
+        height: 6rem;
+      }
+    }
+  }
+
+  .header {
+    &-list {
+      padding-left: 50px;
+    }
+
+    &-item {
+      font-size: 20px;
+      margin-right: 30px;
+    }
+
+    &-login {
+      width: 130px;
+      height: 40px;
+      font-size: 18px;
+    }
+  }
+
+  .LDPage {
+    &-1 {
+      height: 450px;
+
+      &-img {
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: 448px;
+        }
+      }
+
+      &-wrap {
+        transform: translateX(10%) translateY(30%);
+        margin: auto;
+      }
+
+      &-title {
+        font-size: 34px;
+      }
+
+      &-name {
+        font-size: 40px;
+      }
+
+      &-text {
+        font-size: 18px;
+        margin-top: 40px;
+        width: 446px;
+        height: 70px;
+      }
+
+      &-btn {
+        margin-top: 32px;
+
+        &-detail,
+        &-comein {
+          width: 150px;
+          height: 40px;
+        }
+
+        &-detail {
+          font-size: 18px;
+        }
+
+        &-comein {
+          font-size: 18px;
+        }
+      }
+    }
+
+    &-2 {
+      height: 400px;
+
+      &-img {
+        width: 150px;
+        height: 140px;
+      }
+
+      &-box {
+        width: 100%;
+
+        h2 {
+          font-size: 20px;
+        }
+
+        p {
+          text-align: center;
+          color: $primary-2;
+          font-size: 17px;
+          font-weight: 600;
+          height: 80px;
+        }
+      }
+    }
+
+    &-3 {
+      height: 500px;
+
+      &-right {
+        padding-left: 0px !important;
+      }
+
+      &-title {
+        text-align: center;
+        color: $primary-2;
+
+        h1 {
+          font-weight: 800;
+          font-size: 28px;
+          // margin-bottom: 20px;
+        }
+      }
+
+      &-content {
+        padding-right: 44px;
+      }
+
+      &-text {
+        font-size: 20px;
+      }
+
+      &-text:not(:first-child) {
+        margin-top: 18px;
+      }
+    }
+
+    &-4 {
+      height: 100%;
+
+      &-wrap {
+        height: 250px;
+        background-color: $palette-6;
+        font-family: $font-main;
+      }
+
+      &-row {
+        height: 100%;
+      }
+
+      &-card {
+        width: 220px;
+        height: 80px;
+
+        &-title {
+          font-size: 16px;
+          font-weight: 600;
+        }
+
+        &-text {
+          font-size: 20px;
+
+          span {
+            font-size: 16px;
+          }
+        }
+
+        &-right {
+          img {
+            width: 68px;
+            height: 58px;
+          }
+        }
+      }
+    }
+
+    &-5 {
+      width: 100%;
+      height: 550px;
+      font-family: $font-main;
+
+      &-title {
+        font-size: 28px;
+        margin-top: 25px;
+      }
+
+      &-wrap {
+        position: relative;
+      }
+
+      &-text {
+        font-size: 24px;
+        width: 422px;
+        height: 230px;
+        transform: translate(46%, 40%);
+      }
+
+      &-img {
+        width: 80%;
+        position: absolute;
+        transform: translate(13%, -57%);
+      }
+    }
+  }
+
+  .footer {
+    width: 100%;
+    height: 360px;
     font-family: $font-main;
 
     &-row {
-        padding: 0 44px;
-        height: 100%;
-        align-content: center;
+      padding: 0 44px;
+      height: 100%;
+      align-content: center;
+    }
+
+    &-logo {
+      width: 80%;
     }
 
     &-intro {
-        font-size: 18px;
-        color: $secondary-6;
-        font-weight: 600;
-        padding-left: 20px;
-
-        &-title {
-            font-weight: 600;
-        }
-
-        &-local {
-            color: $primary-2;
-        }
-
-        &-phone {
-            color: $brand;
-        }
+      font-size: 16px;
+      padding-left: 20px;
     }
 
     &-help,
     &-info,
     &-link {
-        margin-top: 52px;
+      margin-top: 30px;
 
-        h2 {
-            font-size: 24px;
-            color: $brand;
-            font-weight: bold;
-            margin-bottom: 24px;
+      h2 {
+        font-size: 18px;
+        margin-bottom: 18px;
+      }
 
-        }
+      p {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
 
-        p {
-            color: $secondary-6;
-            font-size: 18px;
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
-
-        i {
-            color: $secondary-6;
-            font-size: 40px;
-            font-weight: 600;
-
-        }
-
-        i:not(:last-child) {
-            margin-right: 40px;
-        }
+      i {
+        font-size: 30px;
+      }
     }
+  }
 
-    &-icons {
-        display: flex;
-        width: 100%;
-        // justify-content: space-between;
-    }
-}
-
-.copyRight {
+  .copyRight {
     width: 100%;
-    height: 96px;
-    font-family: 'Manrope', sans-serif;
-    background-image: linear-gradient(to right, #A5D6FE, #CCEDFF, #A5D6FE);
+    height: 76px;
+    font-family: "Manrope", sans-serif;
+    background-image: linear-gradient(to right, #a5d6fe, #ccedff, #a5d6fe);
     position: relative;
 
     span {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
     }
-}
-@media screen and (max-width:1023px) {
-    #header {
-        &-wrap {
-            padding: 0 44px;
-            margin-top: 36px;
-            height: 6rem;
-        }
-
-        &-logo {
-            margin-right: 4rem;
-
-            img {
-                width: 280px;
-                height: 6rem;
-            }
-        }
-    }
-
-    .header {
-        &-list {
-            padding-left: 50px;
-        }
-
-        &-item {
-            font-size: 20px;
-            margin-right: 30px;
-        }
-
-        &-login {
-            width: 130px;
-            height: 40px;
-            font-size: 18px;
-        }
-    }
-
-    .LDPage {
-        &-1 {
-            height: 450px;
-
-            &-img {
-                width: 100%;
-
-                img {
-                    width: 100%;
-                    height: 448px;
-                }
-            }
-
-            &-wrap {
-                transform: translateX(10%) translateY(30%);
-                margin: auto;
-            }
-
-            &-title {
-                font-size: 34px;
-            }
-
-            &-name {
-                font-size: 40px;
-            }
-
-            &-text {
-                font-size: 18px;
-                margin-top: 40px;
-                width: 446px;
-                height: 70px;
-            }
-
-            &-btn {
-                margin-top: 32px;
-
-                &-detail,
-                &-comein {
-                    width: 150px;
-                    height: 40px;
-                }
-
-                &-detail {
-                    font-size: 18px;
-                }
-
-                &-comein {
-                    font-size: 18px;
-
-                }
-            }
-        }
-
-        &-2 {
-            height: 400px;
-
-            &-img {
-                width: 160px;
-                height: 150px;
-            }
-
-            &-box {
-                width: 100%;
-
-                p {
-                    text-align: center;
-                    color: $primary-2;
-                    font-size: 18px;
-                    font-weight: 600;
-                    height: 80px;
-                }
-            }
-        }
-
-        &-3 {
-            height: 500px;
-
-            &-right {
-                padding-left: 0px !important;
-            }
-
-            &-title {
-                text-align: center;
-                color: $primary-2;
-
-                h1 {
-                    margin-top: 20px;
-                    font-weight: 800;
-                    font-size: 28px;
-                    // margin-bottom: 20px;
-                }
-            }
-
-            &-content {
-                padding-right: 44px;
-                margin-top: 20px;
-            }
-
-            &-text {
-                font-size: 22px;
-
-            }
-
-            &-text:not(:first-child) {
-                margin-top: 18px;
-            }
-        }
-
-        &-4 {
-            height: 100%;
-
-            &-wrap {
-                height: 266px;
-                background-color: $palette-6;
-                font-family: $font-main;
-            }
-
-            &-row {
-                height: 100%;
-            }
-
-            &-card {
-                width: 220px;
-                height: 80px;
-
-                &-title {
-                    font-size: 16px;
-                    font-weight: 600;
-                }
-
-                &-text {
-                    font-size: 20px;
-
-                    span {
-                        font-size: 16px;
-                    }
-                }
-
-                &-right {
-                    img {
-                        width: 68px;
-                        height: 58px;
-                    }
-                }
-            }
-        }
-
-        &-5 {
-            width: 100%;
-            height: 580px;
-            font-family: $font-main;
-
-            &-title {
-                font-size: 28px;
-                margin-top: 25px;
-
-            }
-
-            &-wrap {
-                position: relative;
-            }
-
-            &-text {
-                font-size: 24px;
-                width: 422px;
-                height: 230px;
-                transform: translate(46%, 44%);
-            }
-
-            &-img {
-                width: 80%;
-                position: absolute;
-                transform: translate(13%, -56%);
-            }
-
-        }
-
-    }
-
-    .footer {
-        width: 100%;
-        height: 360px;
-        font-family: $font-main;
-
-        &-row {
-            padding: 0 44px;
-            height: 100%;
-            align-content: center;
-        }
-
-        &-logo {
-            width: 80%;
-        }
-
-        &-intro {
-            font-size: 16px;
-            color: $secondary-6;
-            font-weight: 600;
-            padding-left: 20px;
-
-            &-title {
-                font-weight: 600;
-            }
-
-            &-local {
-                color: $primary-2;
-            }
-
-            &-phone {
-                color: $brand;
-            }
-        }
-
-        &-help,
-        &-info,
-        &-link {
-            margin-top: 30px;
-
-            h2 {
-                font-size: 18px;
-                margin-bottom: 18px;
-            }
-
-            p {
-                color: $secondary-6;
-                font-size: 16px;
-                font-weight: 600;
-                margin-bottom: 16px;
-            }
-
-            i {
-                font-size: 30px;
-            }
-        }
-    }
-
-    .copyRight {
-        width: 100%;
-        height: 76px;
-        font-family: 'Manrope', sans-serif;
-        background-image: linear-gradient(to right, #A5D6FE, #CCEDFF, #A5D6FE);
-        position: relative;
-
-        span {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
-}
-@media screen and (max-width:1439px) {
-    #header {
-        &-wrap {
-            padding: 0 44px;
-            margin-top: 36px;
-            height: 6rem;
-        }
-
-        &-logo {
-            margin-right: 4rem;
-
-            img {
-                width: 280px;
-                height: 6rem;
-            }
-        }
-    }
-
-    .header {
-        &-list {
-            padding-left: 50px;
-        }
-
-        &-item {
-            font-size: 20px;
-            margin-right: 30px;
-        }
-
-        &-login {
-            width: 130px;
-            height: 40px;
-            font-size: 18px;
-        }
-    }
-
-    .LDPage {
-        &-1 {
-            height: 450px;
-
-            &-img {
-                width: 100%;
-
-                img {
-                    width: 100%;
-                    height: 448px;
-                }
-            }
-
-            &-wrap {
-                transform: translateX(10%) translateY(30%);
-                margin: auto;
-            }
-
-            &-title {
-                font-size: 34px;
-            }
-
-            &-name {
-                font-size: 40px;
-            }
-
-            &-text {
-                font-size: 18px;
-                margin-top: 40px;
-                width: 446px;
-                height: 70px;
-            }
-
-            &-btn {
-                margin-top: 32px;
-
-                &-detail,
-                &-comein {
-                    width: 150px;
-                    height: 40px;
-                }
-
-                &-detail {
-                    font-size: 18px;
-                }
-
-                &-comein {
-                    font-size: 18px;
-
-                }
-            }
-        }
-
-        &-2 {
-            height: 400px;
-
-            &-img {
-                width: 160px;
-                height: 150px;
-            }
-
-            &-box {
-                width: 100%;
-
-                p {
-                    text-align: center;
-                    color: $primary-2;
-                    font-size: 18px;
-                    font-weight: 600;
-                    height: 80px;
-                }
-            }
-        }
-
-        &-3 {
-            height: 500px;
-
-            &-right {
-                padding-left: 0px !important;
-            }
-
-            &-title {
-                text-align: center;
-                color: $primary-2;
-
-                h1 {
-                    margin-top: 20px;
-                    font-weight: 800;
-                    font-size: 28px;
-                    // margin-bottom: 20px;
-                }
-            }
-
-            &-content {
-                padding-right: 44px;
-                margin-top: 20px;
-            }
-
-            &-text {
-                font-size: 22px;
-
-            }
-
-            &-text:not(:first-child) {
-                margin-top: 18px;
-            }
-        }
-
-        &-4 {
-            height: 100%;
-
-            &-wrap {
-                height: 266px;
-                background-color: $palette-6;
-                font-family: $font-main;
-            }
-
-            &-row {
-                height: 100%;
-            }
-
-            &-card {
-                width: 220px;
-                height: 80px;
-
-                &-title {
-                    font-size: 16px;
-                    font-weight: 600;
-                }
-
-                &-text {
-                    font-size: 20px;
-
-                    span {
-                        font-size: 16px;
-                    }
-                }
-
-                &-right {
-                    img {
-                        width: 68px;
-                        height: 58px;
-                    }
-                }
-            }
-        }
-
-        &-5 {
-            width: 100%;
-            height: 580px;
-            font-family: $font-main;
-
-            &-title {
-                font-size: 28px;
-                margin-top: 25px;
-
-            }
-
-            &-wrap {
-                position: relative;
-            }
-
-            &-text {
-                font-size: 24px;
-                width: 422px;
-                height: 230px;
-                transform: translate(46%, 44%);
-            }
-
-            &-img {
-                width: 80%;
-                position: absolute;
-                transform: translate(13%, -56%);
-            }
-
-        }
-
-    }
-
-    .footer {
-        width: 100%;
-        height: 360px;
-        font-family: $font-main;
-
-        &-row {
-            padding: 0 44px;
-            height: 100%;
-            align-content: center;
-        }
-
-        &-logo {
-            width: 80%;
-        }
-
-        &-intro {
-            font-size: 16px;
-            color: $secondary-6;
-            font-weight: 600;
-            padding-left: 20px;
-
-            &-title {
-                font-weight: 600;
-            }
-
-            &-local {
-                color: $primary-2;
-            }
-
-            &-phone {
-                color: $brand;
-            }
-        }
-
-        &-help,
-        &-info,
-        &-link {
-            margin-top: 30px;
-
-            h2 {
-                font-size: 18px;
-                margin-bottom: 18px;
-            }
-
-            p {
-                color: $secondary-6;
-                font-size: 16px;
-                font-weight: 600;
-                margin-bottom: 16px;
-            }
-
-            i {
-                font-size: 30px;
-            }
-        }
-    }
-
-    .copyRight {
-        width: 100%;
-        height: 76px;
-        font-family: 'Manrope', sans-serif;
-        background-image: linear-gradient(to right, #A5D6FE, #CCEDFF, #A5D6FE);
-        position: relative;
-
-        span {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
+  }
 }
 
-@media screen and (max-width:1699px){
-    body{
-        width: 1440px;
-    }
-}
+
+

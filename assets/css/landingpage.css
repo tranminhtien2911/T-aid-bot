@@ -70,7 +70,7 @@ body {
 
 #header {
   padding: 0px;
-  background-color: #F9FBFE;
+  background-color: #f9fbfe;
 }
 #header-wrap {
   padding: 0 44px;
@@ -96,7 +96,7 @@ body {
   margin-right: 4.8rem;
 }
 .header-item a {
-  color: #1D262B;
+  color: #1d262b;
 }
 .header-item:first-child {
   font-weight: bold;
@@ -104,16 +104,16 @@ body {
 .header-login {
   width: 164px;
   height: 48px;
-  border: 1px solid #1A71CA;
+  border: 1px solid #1a71ca;
   border-radius: 8px;
-  color: #1A71CA;
+  color: #1a71ca;
   font-size: 20px;
   font-family: "Darker Grotesque", sans-serif;
   background-color: unset;
   font-weight: 600;
 }
 .header-login i {
-  color: #22438C;
+  color: #22438c;
   margin-right: 8px;
 }
 
@@ -122,7 +122,7 @@ body {
 }
 
 .LDPage {
-  background-color: #F9FBFE;
+  background-color: #f9fbfe;
 }
 .LDPage-1, .LDPage-2, .LDPage-3 {
   font-family: "Darker Grotesque", sans-serif;
@@ -137,14 +137,14 @@ body {
 }
 .LDPage-1-title {
   font-size: 48px;
-  color: #22438C;
+  color: #22438c;
   font-weight: 600;
   margin-bottom: 0;
 }
 .LDPage-1-name {
   font-family: aquire;
   font-size: 56px;
-  color: #1A71CA;
+  color: #1a71ca;
 }
 .LDPage-1-text {
   font-size: 20px;
@@ -152,6 +152,7 @@ body {
   margin-top: 48px;
   width: 484px;
   height: 72px;
+  color: #1a71ca;
 }
 .LDPage-1-btn {
   margin-top: 32px;
@@ -164,21 +165,21 @@ body {
   box-shadow: 0px 2px 6px 0px #045ebf41;
 }
 .LDPage-1-btn-detail {
-  background-color: #F6F8F9;
+  background-color: #f6f8f9;
   font-size: 24px;
   font-weight: bold;
-  color: #1A71CA;
+  color: #1a71ca;
   margin-right: 48px;
 }
 .LDPage-1-btn-comein {
-  background-color: #FBAB5B;
+  background-color: #fbab5b;
   font-size: 24px;
   font-weight: bold;
-  color: #F9FBFE;
+  color: #f9fbfe;
 }
 .LDPage-imgWave {
   width: 100%;
-  background-color: #F9FBFE;
+  background-color: #f9fbfe;
 }
 .LDPage-wrap {
   position: relative;
@@ -215,12 +216,12 @@ body {
   margin: 0 auto;
 }
 .LDPage-2-box h2 {
-  color: #7B7986;
+  color: #7b7986;
   font-weight: 600;
 }
 .LDPage-2-box p {
   text-align: center;
-  color: #1A71CA;
+  color: #1a71ca;
   font-size: 2rem;
   font-weight: 600;
 }
@@ -229,13 +230,14 @@ body {
 }
 .LDPage-3-row {
   height: 100%;
+  width: 100%;
 }
 .LDPage-3-right {
   padding-left: 0px !important;
 }
 .LDPage-3-title {
   text-align: center;
-  color: #1A71CA;
+  color: #1a71ca;
 }
 .LDPage-3-title h1 {
   font-weight: 800;
@@ -247,7 +249,7 @@ body {
 }
 .LDPage-3-text {
   font-size: 28px;
-  color: #7B7986;
+  color: #7b7986;
   text-align: justify;
   font-weight: 500;
 }
@@ -259,7 +261,7 @@ body {
 }
 .LDPage-4-wrap {
   height: 266px;
-  background-color: #F9FBFE;
+  background-color: #f9fbfe;
   font-family: "Darker Grotesque", sans-serif;
 }
 .LDPage-4-row {
@@ -275,11 +277,11 @@ body {
 .LDPage-4-card-title {
   font-size: 16px;
   font-weight: 600;
-  color: #22438C;
+  color: #22438c;
 }
 .LDPage-4-card-text {
   font-size: 24px;
-  color: #FBAB5B;
+  color: #fbab5b;
   font-weight: bold;
 }
 .LDPage-4-card-text span {
@@ -293,7 +295,7 @@ body {
 .LDPage-5-title {
   font-size: 36px;
   font-weight: 800;
-  color: #1A71CA;
+  color: #1a71ca;
   text-align: center;
   margin-top: 30px;
   position: relative;
@@ -304,7 +306,7 @@ body {
 }
 .LDPage-5-text {
   font-size: 28px;
-  color: #7B7986;
+  color: #7b7986;
   width: 509px;
   height: 230px;
   position: relative;
@@ -332,7 +334,7 @@ body {
 }
 .footer-intro {
   font-size: 18px;
-  color: #22438C;
+  color: #22438c;
   font-weight: 600;
   padding-left: 20px;
 }
@@ -340,28 +342,28 @@ body {
   font-weight: 600;
 }
 .footer-intro-local {
-  color: #1A71CA;
+  color: #1a71ca;
 }
 .footer-intro-phone {
-  color: #DF2040;
+  color: #df2040;
 }
 .footer-help, .footer-info, .footer-link {
   margin-top: 52px;
 }
 .footer-help h2, .footer-info h2, .footer-link h2 {
   font-size: 24px;
-  color: #DF2040;
+  color: #df2040;
   font-weight: bold;
   margin-bottom: 24px;
 }
 .footer-help p, .footer-info p, .footer-link p {
-  color: #22438C;
+  color: #22438c;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 15px;
 }
 .footer-help i, .footer-info i, .footer-link i {
-  color: #22438C;
+  color: #22438c;
   font-size: 40px;
   font-weight: 600;
 }
@@ -377,7 +379,7 @@ body {
   width: 100%;
   height: 96px;
   font-family: "Manrope", sans-serif;
-  background-image: linear-gradient(to right, #A5D6FE, #CCEDFF, #A5D6FE);
+  background-image: linear-gradient(to right, #a5d6fe, #ccedff, #a5d6fe);
   position: relative;
 }
 .copyRight span {
@@ -387,227 +389,11 @@ body {
   transform: translateX(-50%);
 }
 
-@media screen and (max-width: 1023px) {
-  #header-wrap {
-    padding: 0 44px;
-    margin-top: 36px;
-    height: 6rem;
-  }
-  #header-logo {
-    margin-right: 4rem;
-  }
-  #header-logo img {
-    width: 280px;
-    height: 6rem;
-  }
-
-  .header-list {
-    padding-left: 50px;
-  }
-  .header-item {
-    font-size: 20px;
-    margin-right: 30px;
-  }
-  .header-login {
-    width: 130px;
-    height: 40px;
-    font-size: 18px;
-  }
-
-  .LDPage-1 {
-    height: 450px;
-  }
-  .LDPage-1-img {
-    width: 100%;
-  }
-  .LDPage-1-img img {
-    width: 100%;
-    height: 448px;
-  }
-  .LDPage-1-wrap {
-    transform: translateX(10%) translateY(30%);
-    margin: auto;
-  }
-  .LDPage-1-title {
-    font-size: 34px;
-  }
-  .LDPage-1-name {
-    font-size: 40px;
-  }
-  .LDPage-1-text {
-    font-size: 18px;
-    margin-top: 40px;
-    width: 446px;
-    height: 70px;
-  }
-  .LDPage-1-btn {
-    margin-top: 32px;
-  }
-  .LDPage-1-btn-detail, .LDPage-1-btn-comein {
-    width: 150px;
-    height: 40px;
-  }
-  .LDPage-1-btn-detail {
-    font-size: 18px;
-  }
-  .LDPage-1-btn-comein {
-    font-size: 18px;
-  }
-  .LDPage-2 {
-    height: 400px;
-  }
-  .LDPage-2-img {
-    width: 160px;
-    height: 150px;
-  }
-  .LDPage-2-box {
-    width: 100%;
-  }
-  .LDPage-2-box p {
-    text-align: center;
-    color: #1A71CA;
-    font-size: 18px;
-    font-weight: 600;
-    height: 80px;
-  }
-  .LDPage-3 {
-    height: 500px;
-  }
-  .LDPage-3-right {
-    padding-left: 0px !important;
-  }
-  .LDPage-3-title {
-    text-align: center;
-    color: #1A71CA;
-  }
-  .LDPage-3-title h1 {
-    margin-top: 20px;
-    font-weight: 800;
-    font-size: 28px;
-  }
-  .LDPage-3-content {
-    padding-right: 44px;
-    margin-top: 20px;
-  }
-  .LDPage-3-text {
-    font-size: 22px;
-  }
-  .LDPage-3-text:not(:first-child) {
-    margin-top: 18px;
-  }
-  .LDPage-4 {
-    height: 100%;
-  }
-  .LDPage-4-wrap {
-    height: 266px;
-    background-color: #F9FBFE;
-    font-family: "Darker Grotesque", sans-serif;
-  }
-  .LDPage-4-row {
-    height: 100%;
-  }
-  .LDPage-4-card {
-    width: 220px;
-    height: 80px;
-  }
-  .LDPage-4-card-title {
-    font-size: 16px;
-    font-weight: 600;
-  }
-  .LDPage-4-card-text {
-    font-size: 20px;
-  }
-  .LDPage-4-card-text span {
-    font-size: 16px;
-  }
-  .LDPage-4-card-right img {
-    width: 68px;
-    height: 58px;
-  }
-  .LDPage-5 {
-    width: 100%;
-    height: 580px;
-    font-family: "Darker Grotesque", sans-serif;
-  }
-  .LDPage-5-title {
-    font-size: 28px;
-    margin-top: 25px;
-  }
-  .LDPage-5-wrap {
-    position: relative;
-  }
-  .LDPage-5-text {
-    font-size: 24px;
-    width: 422px;
-    height: 230px;
-    transform: translate(46%, 44%);
-  }
-  .LDPage-5-img {
-    width: 80%;
-    position: absolute;
-    transform: translate(13%, -56%);
-  }
-
-  .footer {
-    width: 100%;
-    height: 360px;
-    font-family: "Darker Grotesque", sans-serif;
-  }
-  .footer-row {
-    padding: 0 44px;
-    height: 100%;
-    align-content: center;
-  }
-  .footer-logo {
-    width: 80%;
-  }
-  .footer-intro {
-    font-size: 16px;
-    color: #22438C;
-    font-weight: 600;
-    padding-left: 20px;
-  }
-  .footer-intro-title {
-    font-weight: 600;
-  }
-  .footer-intro-local {
-    color: #1A71CA;
-  }
-  .footer-intro-phone {
-    color: #DF2040;
-  }
-  .footer-help, .footer-info, .footer-link {
-    margin-top: 30px;
-  }
-  .footer-help h2, .footer-info h2, .footer-link h2 {
-    font-size: 18px;
-    margin-bottom: 18px;
-  }
-  .footer-help p, .footer-info p, .footer-link p {
-    color: #22438C;
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 16px;
-  }
-  .footer-help i, .footer-info i, .footer-link i {
-    font-size: 30px;
-  }
-
-  .copyRight {
-    width: 100%;
-    height: 76px;
-    font-family: "Manrope", sans-serif;
-    background-image: linear-gradient(to right, #A5D6FE, #CCEDFF, #A5D6FE);
-    position: relative;
-  }
-  .copyRight span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
 @media screen and (max-width: 1439px) {
+  body {
+    width: 1024px;
+  }
+
   #header-wrap {
     padding: 0 44px;
     margin-top: 36px;
@@ -617,7 +403,7 @@ body {
     margin-right: 4rem;
   }
   #header-logo img {
-    width: 280px;
+    width: 260px;
     height: 6rem;
   }
 
@@ -677,16 +463,19 @@ body {
     height: 400px;
   }
   .LDPage-2-img {
-    width: 160px;
-    height: 150px;
+    width: 150px;
+    height: 140px;
   }
   .LDPage-2-box {
     width: 100%;
   }
+  .LDPage-2-box h2 {
+    font-size: 20px;
+  }
   .LDPage-2-box p {
     text-align: center;
-    color: #1A71CA;
-    font-size: 18px;
+    color: #1a71ca;
+    font-size: 17px;
     font-weight: 600;
     height: 80px;
   }
@@ -698,19 +487,17 @@ body {
   }
   .LDPage-3-title {
     text-align: center;
-    color: #1A71CA;
+    color: #1a71ca;
   }
   .LDPage-3-title h1 {
-    margin-top: 20px;
     font-weight: 800;
     font-size: 28px;
   }
   .LDPage-3-content {
     padding-right: 44px;
-    margin-top: 20px;
   }
   .LDPage-3-text {
-    font-size: 22px;
+    font-size: 20px;
   }
   .LDPage-3-text:not(:first-child) {
     margin-top: 18px;
@@ -719,8 +506,8 @@ body {
     height: 100%;
   }
   .LDPage-4-wrap {
-    height: 266px;
-    background-color: #F9FBFE;
+    height: 250px;
+    background-color: #f9fbfe;
     font-family: "Darker Grotesque", sans-serif;
   }
   .LDPage-4-row {
@@ -746,7 +533,7 @@ body {
   }
   .LDPage-5 {
     width: 100%;
-    height: 580px;
+    height: 550px;
     font-family: "Darker Grotesque", sans-serif;
   }
   .LDPage-5-title {
@@ -760,12 +547,12 @@ body {
     font-size: 24px;
     width: 422px;
     height: 230px;
-    transform: translate(46%, 44%);
+    transform: translate(46%, 40%);
   }
   .LDPage-5-img {
     width: 80%;
     position: absolute;
-    transform: translate(13%, -56%);
+    transform: translate(13%, -57%);
   }
 
   .footer {
@@ -783,18 +570,7 @@ body {
   }
   .footer-intro {
     font-size: 16px;
-    color: #22438C;
-    font-weight: 600;
     padding-left: 20px;
-  }
-  .footer-intro-title {
-    font-weight: 600;
-  }
-  .footer-intro-local {
-    color: #1A71CA;
-  }
-  .footer-intro-phone {
-    color: #DF2040;
   }
   .footer-help, .footer-info, .footer-link {
     margin-top: 30px;
@@ -804,10 +580,8 @@ body {
     margin-bottom: 18px;
   }
   .footer-help p, .footer-info p, .footer-link p {
-    color: #22438C;
     font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
   }
   .footer-help i, .footer-info i, .footer-link i {
     font-size: 30px;
@@ -817,7 +591,7 @@ body {
     width: 100%;
     height: 76px;
     font-family: "Manrope", sans-serif;
-    background-image: linear-gradient(to right, #A5D6FE, #CCEDFF, #A5D6FE);
+    background-image: linear-gradient(to right, #a5d6fe, #ccedff, #a5d6fe);
     position: relative;
   }
   .copyRight span {
@@ -825,11 +599,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
-  }
-}
-@media screen and (max-width: 1699px) {
-  body {
-    width: 1440px;
   }
 }
 
