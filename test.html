@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <title>Document</title>
+  </head>
+  <style>
+    .wrapper {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .table {
+      /* width: 800px; */
+      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      border-radius: 10px;
+      border-style: hidden;
+      box-shadow: 0 0 0 1px #c2cfd6;
+    }
+    .table,
+    th,
+    td {
+      border-collapse: collapse;
+    }
+    .table th {
+      background-color: #eaeaea;
+      text-align: center;
+    }
+    thead th:first-child {
+      border-right: 1px solid #c2cfd6;
+      border-radius: 10px 0 0 0;
+    }
+    thead th:last-child {
+      border-radius: 0px 10px 0 0;
+      border-left: 1px solid #c2cfd6;
+    }
+    tbody {
+      border-top: 1px solid #c2cfd6;
+    }
+    tbody tr:first-child:hover td:not(:first-child) {
+      background: rgba(194, 207, 214, 0.25);
+    }
+    tbody tr:not(:first-child):hover {
+      background: rgba(194, 207, 214, 0.25);
+    }
+    tr td:last-child {
+      border-left: 1px solid #c2cfd6;
+    }
+    tr td:not(:last-child) {
+      text-align: center;
+    }
+    .code {
+      border-right: 1px solid #c2cfd6;
+    }
+    tbody:last-child tr:last-child:hover td:last-child {
+      border-radius: 0 0 10px 0;
+    }
+  </style>
+  <body>
+    <div class="container-xxl">
+      <div class="row">
+        <div class="col-xxl-12">
+          <div class="wrapper">
+            <table class="table" id="table">
+              <thead>
+                <th scope="col" class="title">Môn học</th>
+                <th scope="col" class="title">Mã môn học</th>
+                <th scope="col" class="title">Tên môn học</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="3" class="code">ACC</td>
+                  <td>201</td>
+                  <td>Nguyên Lý Kế Toán 1</td>
+                </tr>
+                <tr>
+                  <td>301</td>
+                  <td>Kế Toán Quản Trị 1</td>
+                </tr>
+                <tr>
+                  <td>302</td>
+                  <td>Kế Toán Tài Chính 1</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <td rowspan="3" class="code">ACC</td>
+                  <td>201</td>
+                  <td>Nguyên Lý Kế Toán 1</td>
+                </tr>
+                <tr>
+                  <td>301</td>
+                  <td>Kế Toán Quản Trị 1</td>
+                </tr>
+                <tr>
+                  <td>302</td>
+                  <td>Kế Toán Tài Chính 1</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <td rowspan="3" class="code">ACC</td>
+                  <td>201</td>
+                  <td>Nguyên Lý Kế Toán 1</td>
+                </tr>
+                <tr>
+                  <td>301</td>
+                  <td>Kế Toán Quản Trị 1</td>
+                </tr>
+                <tr>
+                  <td>302</td>
+                  <td>Kế Toán Tài Chính 1</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
